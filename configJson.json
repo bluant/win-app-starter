@@ -1,0 +1,176 @@
+{
+    "DefaultProjectRoot": "C:\\work\\kompare\\projekti\\",
+    "ProjectList": [
+        {
+            "code": "AO",
+            "applications": [
+                {
+                    "code": "kompare-api",
+                    "folder": "kompare-api",
+                    "command": "yarn start-dev-no-flow",
+                    "program": "webstorm64.exe"
+                },
+                {
+                    "code": "kpas",
+                    "folder": "platforma\\kompare-dev-setup\\App\\modules",
+                    "program": "phpstorm64.exe"
+                },
+                {
+                    "code": "calculations",
+                    "folder": "kompare-calculations",
+                    "command": "yarn start-dev-no-flow",
+                    "program": "webstorm64.exe"
+                },
+                {
+                    "code": "ao-admin",
+                    "folder": "kompare-ao-admin",
+                    "command": "yarn start-dev-no-flow",
+                    "program": "webstorm64.exe"
+                },
+                {
+                    "code": "api-proxy",
+                    "folder": "kompare-api-proxy",
+                    "command": "yarn start-dev",
+                    "program": "webstorm64.exe"
+                },
+                {
+                    "code": "price-logger",
+                    "folder": "kompare-ao-prices-logging-app",
+                    "command": "yarn run dev",
+                    "program": "webstorm64.exe"
+                }
+            ]
+        },
+        {
+            "code": "DZO",
+            "applications": [
+                {
+                    "code": "kompare-api",
+                    "folder": "kompare-api",
+                    "command": "yarn start-dev-no-flow",
+                    "program": "webstorm64.exe"
+                },
+                {
+                    "code": "nassim",
+                    "folder": "Nassim\\kompare-5.0-nassim",
+                    "command": "yarn start",
+                    "program": "webstorm64.exe"
+                },
+                {
+                    "code": "healh-calculations",
+                    "folder": "kompare-health-calculations",
+                    "command": "yarn start-dev-no-flow",
+                    "program": "webstorm64.exe"
+                },
+                {
+                    "code": "calculator-widget",
+                    "folder": "kompare-health-calculator-widget",
+                    "command": "yarn start",
+                    "program": "webstorm64.exe"
+                },
+                {
+                    "code": "api-proxy",
+                    "folder": "kompare-api-proxy",
+                    "command": "yarn start-dev",
+                    "program": "webstorm64.exe"
+                },
+                {
+                    "code": "checkout",
+                    "folder": "kompare-checkout",
+                    "command": "yarn dev",
+                    "program": "webstorm64.exe"
+                }
+            ]
+        },
+        {
+            "code": "TELCO",
+            "applications": [
+                {
+                    "code": "kompare-api",
+                    "folder": "kompare-api",
+                    "command": "yarn start-dev-no-flow",
+                    "program": "webstorm64.exe"
+                },
+                {
+                    "code": "nassim",
+                    "folder": "kompare-5.0-nassim",
+                    "command": "yarn start",
+                    "program": "webstorm64.exe"
+                }
+            ]
+        },
+        {
+            "code": "OTHER",
+            "applications": [
+                {
+                    "code": "kompare-api",
+                    "folder": "kompare-api",
+                    "command": "yarn start-dev-no-flow",
+                    "program": "webstorm64.exe"
+                },
+                {
+                    "code": "nassim",
+                    "folder": "kompare-5.0-nassim",
+                    "command": "yarn start",
+                    "program": "webstorm64.exe"
+                }
+            ]
+        }
+    ],
+    "AdditionalCommands": [
+        {
+            "code": "Redis",
+            "command": "bash service redis_6379 start",
+            "program": "powershell",
+            "type": "service",
+            "exit": true
+        },
+        {
+            "code": "MongoDB",
+            "command": "mongod --replSet rs0",
+            "program": "powershell",
+            "type": "service"
+        },
+        {
+            "code": "Postman",
+            "command": "C:\\Users\\sanji\\AppData\\Local\\Postman\\Postman.exe",
+            "type": "program"
+        },
+        {
+            "code": "NoSqlBooster",
+            "command": "C:\\Users\\sanji\\AppData\\Local\\Programs\\nosqlbooster4mongo\\NoSQLBooster for MongoDB.exe",
+            "type": "program"
+        },
+        {
+            "code": "Studio3T",
+            "command": "C:\\Program Files\\3T Software Labs\\Studio 3T\\Studio 3T.exe",
+            "type": "program"
+        },
+        {
+            "code": "XAMPP",
+            "command": "C:\\work\\kompare\\xamp\\xampp-control.exe",
+            "type": "program"
+        },
+        {
+            "code": "Medis",
+            "command": "C:\\Users\\sanji\\AppData\\Roaming\\MedisWin\\medis.exe",
+            "type": "program"
+        },
+        {
+            "code": "Google Chrome",
+            "command": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+            "type": "program",
+            "additionalArguments": " --profile-directory=Default"
+        },
+        {
+            "code": "Win SCP",
+            "command": "C:\\Program Files (x86)\\WinSCP\\WinSCP.exe",
+            "type": "program"
+        },
+        {
+            "code": "Ponuda u calc",
+            "command": "C:\\Users\\sanji\\Desktop\\Ponuda u kalkulacije\\Ponuda u kalkulacije.exe",
+            "type": "program"
+        }
+    ]
+}
